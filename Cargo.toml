@@ -1,6 +1,20 @@
 [package]
 name = "sudoku"
 version = "0.1.0"
-edition = "2024"
+edition = "2021"
+rust-version = "1.70"
+license = "MIT"
+description = "A Sudoku library"
+repository = "https://github.com/USA-RedDragon/sudoku"
+categories = ["puzzle", "game"]
+keywords = ["sudoku", "puzzle", "game"]
+readme = "../README.md"
+exclude = [".github/", "target/"]
+
+[lib]
+name = "sudoku"
 
 [dependencies]
+
+[[example]]
+name = "basic"
