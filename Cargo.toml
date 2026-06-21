@@ -15,6 +15,7 @@ exclude = [".github/", "target/"]
 name = "sudoku"
 
 [dependencies]
+bitflags = "2.13.0"
 
 [[example]]
 name = "basic"
